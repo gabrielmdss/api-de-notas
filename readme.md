@@ -2,7 +2,7 @@
 
 ## Descrição
 
-A **API de Notas** é uma api feira para criar notas, mostrar as notas criadas, editar as notas existentes e excluir as notas indesejadas. A estrutura da nota é titulo e conteudo.
+A **API de Notas** é uma api feita para criar notas, mostrar as notas criadas, editar as notas existentes e excluir as notas indesejadas. A estrutura da nota é titulo e conteudo.
 
 ## Tecnologias Utilizadas
 
