@@ -35,7 +35,7 @@ Exemplo de solicitação para listar todas as notas:
 
 ### 3. Recuperar uma Nota ✍️
 
-O usuário pode recuperar uma nota específica enviando uma solicitação GET com o ID da nota desejada para o endpoint `/notas/{id}`.
+O usuário pode recuperar uma nota específica enviando uma solicitação GET com o ID da nota desejada para o endpoint `/recuperarnotas/:idNota`.
 
 Exemplo de solicitação para recuperar uma nota pelo ID:
 
@@ -43,14 +43,14 @@ Exemplo de solicitação para recuperar uma nota pelo ID:
 
 ### 4. Atualizar uma Nota 🔄
 
-O usuário pode atualizar o título e/ou o conteúdo de uma nota existente enviando uma solicitação PUT com o ID da nota para o endpoint `/notas/{id}`. Eles devem fornecer os novos dados da nota no corpo da solicitação.
+O usuário pode atualizar o título e/ou o conteúdo de uma nota existente enviando uma solicitação PUT com o ID da nota para o endpoint `/editarNota`. Eles devem fornecer os novos dados da nota no corpo da solicitação.
 
 Exemplo de solicitação para atualizar uma nota pelo ID:
 ![Alt text](image-4.png)
 
 ### 5. Excluir uma Nota ❌
 
-Os usuários podem excluir uma nota enviando uma solicitação DELETE com o ID da nota para o endpoint `/notas/{id}`.
+Os usuários podem excluir uma nota enviando uma solicitação DELETE com o ID da nota para o endpoint `/excluirNota/:idNota`.
 
 Exemplo de solicitação para excluir uma nota pelo ID:
 
