@@ -6,7 +6,7 @@ let identificadorNota = 1;
 const criarUmaNota = async (req,res) => {
     const {titulo,conteudo} = req.body;
 
-    console.log(conteudo)
+    
     if(!titulo){
         return res.status(400).json({mensagem: "Insira o título da nota."});
     };
@@ -95,12 +95,12 @@ const excluirNota = async (req,res) => {
         return res.status(400).json({mensagem: "Nota inexistente ou já foi apagada."})
     };
 
-    console.log(notas)
+    
     notas = notas.filter((nota)=>{
         return nota.id !== Number(idNota)
     })
 
-    console.log(notas)
+    
 
     
 };
