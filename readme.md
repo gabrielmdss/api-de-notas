@@ -14,19 +14,6 @@ A **API de Notas** é uma api feira para criar notas, mostrar as notas criadas, 
 
 A API oferece as seguintes funções:
 
-### Como usar 🤝
-
-
-```http
-git clone https://github.com/gabrielmdss/api-de-notas.git
-
-cd bloco-de-notas
-
-npm install
-
-npm run dev
-```
-
 ### 1. Criar uma Nota ✏️
 
 O usuário pode criar uma nova nota enviando uma solicitação POST para o endpoint `/notas`. Deve ser fornecido um título e um conteúdo para a nota no corpo da solicitação em formato json.
