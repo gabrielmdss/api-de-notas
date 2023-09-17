@@ -26,7 +26,7 @@ Exemplo de solicitação:
 
 ### 2. Listar Notas 📋
 
-Os usuários podem listar todas as notas existentes enviando uma solicitação GET para o endpoint `/notas`.
+Os usuários podem listar todas as notas existentes enviando uma solicitação GET para o endpoint `/listarnotas`.
 
 Exemplo de solicitação para listar todas as notas:
 
