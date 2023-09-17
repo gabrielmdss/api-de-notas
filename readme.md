@@ -16,7 +16,7 @@ A API oferece as seguintes funções:
 
 ### 1. Criar uma Nota ✏️
 
-O usuário pode criar uma nova nota enviando uma solicitação POST para o endpoint `/notas`. Deve ser fornecido um título e um conteúdo para a nota no corpo da solicitação em formato json.
+O usuário pode criar uma nova nota enviando uma solicitação POST para o endpoint `/criarnota`. Deve ser fornecido um título e um conteúdo para a nota no corpo da solicitação em formato json.
 
 
 
